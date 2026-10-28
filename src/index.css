@@ -1,0 +1,76 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --color-primary: #00F0C6;
+    --color-primary-hover: #39FFDB;
+    --color-surface-deep: #020807;
+    --color-surface-card: #03110E;
+    --color-surface-elevated: #002D28;
+    --color-border-teal: #00483F;
+    --color-text-muted: #A8B7B3;
+  }
+
+  html {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    direction: rtl;
+    scroll-behavior: smooth;
+    background-color: #020807;
+    color: #FFFFFF;
+  }
+
+  h1, h2, h3, .font-display {
+    font-family: 'IBM Plex Sans Arabic', 'Tajawal', sans-serif;
+    text-wrap: balance;
+    letter-spacing: 0.005em;
+  }
+
+  .font-brand {
+    font-family: 'Manrope', 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  .font-mono-num {
+    font-family: 'IBM Plex Mono', monospace;
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+  height: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: #020807;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #00483F;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #00F0C6;
+}
+
+.elegant-dark-bg {
+  background-color: #020807;
+  background-image: radial-gradient(circle at 50% -20%, #00483F 0%, #020807 70%);
+}
+
+.elegant-dot-grid {
+  background-image: radial-gradient(#00F0C6 0.65px, transparent 0.65px);
+  background-size: 32px 32px;
+}
+
+.glow-mint-drop {
+  filter: drop-shadow(0 0 28px rgba(0, 240, 198, 0.25));
+}
+
+.glow-mint-box {
+  box-shadow: 0 10px 28px rgba(0, 240, 198, 0.16);
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}

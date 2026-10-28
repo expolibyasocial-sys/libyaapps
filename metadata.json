@@ -1,0 +1,6 @@
+{
+  "name": "LIBYA APPS — منصة التطبيقات الليبية",
+  "description": "المنصة الوطنية الشاملة لدليل التطبيقات الليبية، الشركات التقنية، الأخبار الرقمية، منصة الإطلاق، ومعرض ليبيا للتطبيقات.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
